@@ -2,9 +2,8 @@ package main
 
 import "fmt"
 
-var N, A, B int
-
 func main() {
+	var N, A, B int
 	_, _ = fmt.Scan(&N, &A, &B)
 	train := N * A
 	taxi := B
