@@ -1,0 +1,17 @@
+[package]
+name = "atcoder-problems"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proconio = "0.4.3"
+
+[[bin]]
+name = "abc145_b"
+path = "src/abc145/b.rs"
+
+[[bin]]
+name = "abc145_c"
+path = "src/abc145/c.rs"
